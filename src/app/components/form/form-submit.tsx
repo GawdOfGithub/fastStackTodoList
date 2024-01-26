@@ -3,7 +3,7 @@
 import { useFormStatus } from "react-dom";
 
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/button";
 
 interface FormSubmitProps {
   children: React.ReactNode;
@@ -24,7 +24,7 @@ export const FormSubmit = ({
     <Button
       disabled={pending || disabled}
       type="submit"
-      variant={variant}
+      variant='secondary'
       size="sm"
       className={cn(className)}
     >

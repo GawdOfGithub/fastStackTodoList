@@ -3,7 +3,8 @@ import { toast } from "sonner"
 import {ElementRef,useRef,useState} from "react"
 import { Todo } from "@prisma/client"
 import { Button } from "../ui/button"
-import { FormInput } from "@/components/form/form-input";
+
+import { FormInput } from "@/app/components/form/form-input"
 import { updateTodo } from "@/actions/update-todo";
 import { useAction } from "@/hooks/useAction"
 import { Edit2Icon } from "lucide-react"
